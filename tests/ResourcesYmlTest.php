@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace ApiClients\Tests\Tools\Installer\Operation;
+namespace ApiClients\Tests\Tools\Installer\Operation\Client;
 
 use ApiClients\Tools\Installer\Filesystem;
 use ApiClients\Tools\Installer\Operation\ResourcesYml;

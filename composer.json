@@ -1,5 +1,5 @@
 {
-  "name": "api-clients/installer",
+  "name": "api-clients/installer-client-operations",
   "license": "MIT",
   "authors": [
     {
@@ -10,14 +10,8 @@
   "require": {
     "php": "^7.0",
     "api-clients/branding": "dev-master",
-    "beberlei/assert": "^2.7",
+    "api-clients/installer": "dev-master",
     "composer/composer": "^1.3",
-    "igorw/get-in": "^1.0",
-    "joshdifabio/composed": "^1.0",
-    "nikic/php-parser": "^3.0 || ^2.0",
-    "ocramius/package-versions": "^1.1",
-    "roave/better-reflection": "^1.2",
-    "symfony/console": "3.2.1",
     "symfony/yaml": "^3.2"
   },
   "require-dev": {
@@ -25,12 +19,12 @@
   },
   "autoload": {
     "psr-4": {
-      "ApiClients\\Tools\\Installer\\": "src/"
+      "ApiClients\\Tools\\Installer\\Operation\\Client\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ApiClients\\Tests\\Tools\\Installer\\": "tests/"
+      "ApiClients\\Tests\\Tools\\Installer\\Operation\\Client\\": "tests/"
     }
   },
   "config": {

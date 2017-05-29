@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace ApiClients\Tools\Installer\Operation;
+namespace ApiClients\Tools\Installer\Operation\Client;
 
 use ApiClients\Tools\Installer\Filesystem;
 use ApiClients\Tools\Installer\OperationInterface;
@@ -25,7 +25,7 @@ final class ResourcesYml implements OperationInterface
     }
 
     /**
-     * @return OperationInterface
+     * @return OperationInterface\
      */
     public static function create(): OperationInterface
     {
