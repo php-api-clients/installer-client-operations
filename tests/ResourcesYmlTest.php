@@ -3,7 +3,7 @@
 namespace ApiClients\Tests\Tools\Installer\Operation\Client;
 
 use ApiClients\Tools\Installer\Filesystem;
-use ApiClients\Tools\Installer\Operation\ResourcesYml;
+use ApiClients\Tools\Installer\Operation\Client\ResourcesYml;
 use ApiClients\Tools\TestUtilities\TestCase;
 use Composer\Factory;
 use Symfony\Component\Console\Style\SymfonyStyle;

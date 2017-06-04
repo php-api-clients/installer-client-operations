@@ -25,7 +25,7 @@ final class ResourcesYml implements OperationInterface
     }
 
     /**
-     * @return OperationInterface\
+     * @return OperationInterface
      */
     public static function create(): OperationInterface
     {
@@ -34,10 +34,10 @@ final class ResourcesYml implements OperationInterface
 
     /**
      * @param array        $replacements
-     * @param array        $environment
+     * @param array        $config
      * @param SymfonyStyle $style
      */
-    public function operate(array $replacements, array $environment, SymfonyStyle $style)
+    public function operate(array $replacements, array $config, SymfonyStyle $style)
     {
         $path = str_replace(
             'composer.json',

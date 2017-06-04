@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "34955dbf55b4f0a70d38e927d2b967fc",
+    "content-hash": "7e4d7c03559ae3fa96ebb648a2c40e13",
     "packages": [
         {
             "name": "api-clients/branding",
@@ -35,16 +35,16 @@
         },
         {
             "name": "api-clients/installer",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer.git",
-                "reference": "8a542884ef10e09646265c588136f6bc08a3a368"
+                "reference": "7d93208a2332134f46f40d39e0404ab368e8ca99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/8a542884ef10e09646265c588136f6bc08a3a368",
-                "reference": "8a542884ef10e09646265c588136f6bc08a3a368",
+                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/7d93208a2332134f46f40d39e0404ab368e8ca99",
+                "reference": "7d93208a2332134f46f40d39e0404ab368e8ca99",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +79,8 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-06-02 21:44:17"
+            "description": "YAML based project installer",
+            "time": "2017-06-04T17:31:17+00:00"
         },
         {
             "name": "beberlei/assert",
@@ -3787,9 +3788,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "api-clients/installer": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
