@@ -1,6 +1,4 @@
-# Configurable package installer
-
-YAML based project installer inspired by [`IceHawk installer`](https://github.com/icehawk/installer) and [`Koriym.PhpSkeleton`](https://github.com/koriym/Koriym.PhpSkeleton)
+# api-clients/installer-client-operations
 
 [![Build Status](https://travis-ci.org/php-api-clients/installer.svg?branch=master)](https://travis-ci.org/php-api-clients/installer)
 [![Latest Stable Version](https://poser.pugx.org/api-clients/installer/v/stable.png)](https://packagist.org/packages/api-clients/installer)
